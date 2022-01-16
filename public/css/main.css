@@ -7,6 +7,7 @@ h1 {
     grid-template-columns: auto auto auto;
     /* padding: 10px; */
 }
+
 .grid-item {
     padding: 10px;
     position: relative;
@@ -14,6 +15,7 @@ h1 {
     height: fit-content;
     /* border: 1px solid rgba(0, 0, 0, 0.8); */
 }
+
 .grid-item p {
     font-size: 20px;
     margin: 0;
@@ -21,11 +23,13 @@ h1 {
     color: white;
     font-weight: bold;
 }
+
 .grid-item video {
     max-height: 300px;
     max-width: 100%;
     box-shadow: -2px -2px 15px #888888;
 }
+
 .grid-item .kick_btn {
     position: absolute;
     bottom: 0;
@@ -36,7 +40,7 @@ h1 {
 
 #localVideo-container {
     height: 250px;
-    position: absolute;
+    /* position: absolute; */
     bottom: 5px;
     right: 5px;
     box-shadow: -2px -2px 15px #888888;
